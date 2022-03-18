@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  <servlet-name>servlet2</servlet-name>
+  <servlet-class>com.kritika.controller.AddController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet2</servlet-name>
+  <url-pattern>/addServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>servlet3</servlet-name>
+  <servlet-class>com.kritika.controller.DeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet3</servlet-name>
+  <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>servlet4</servlet-name>
+  <servlet-class>com.kritika.controller.UpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet4</servlet-name>
+  <url-pattern>/updateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>servlet5</servlet-name>
+  <servlet-class>com.kritika.controller.FindController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet5</servlet-name>
+  <url-pattern>/findServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>servlet6</servlet-name>
+  <servlet-class>com.kritika.controller.FindAllController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servlet6</servlet-name>
+  <url-pattern>/findAllServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
